@@ -1,17 +1,9 @@
+import Home from "./components/Home"
+
 function App() {
-
   return (
-    <div>
-      <h1>
-        Mystique
-      </h1>
-
-      <p>
-        The rise of the Dark Lord..
-      </p>
-    </div>
+    <Home />
   )
-
 }
 
 export default App
