@@ -1,1 +1,29 @@
+.cursor-light{
 
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:0;
+
+    background:
+
+        radial-gradient(
+
+            350px circle
+
+            at
+
+            var(--mouse-x)
+
+            var(--mouse-y),
+
+            rgba(102,227,255,.10),
+
+            transparent 70%
+
+        );
+
+}
