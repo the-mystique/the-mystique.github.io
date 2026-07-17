@@ -2,19 +2,15 @@
 
     margin-top:3rem;
 
-    padding:1rem 2.5rem;
+    padding:
 
-    background:transparent;
+        clamp(.9rem,2vw,1.1rem)
 
-    color:var(--text);
-
-    border:1px solid var(--border);
+        clamp(2rem,5vw,3rem);
 
     border-radius:999px;
 
-    cursor:pointer;
-
-    transition:all .3s ease;
+    font-size:clamp(.95rem,2vw,1rem);
 
 }
 
