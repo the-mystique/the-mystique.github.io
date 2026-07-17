@@ -1,0 +1,31 @@
+.glow-button{
+
+    margin-top:3rem;
+
+    padding:1rem 2.5rem;
+
+    background:transparent;
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+}
+
+.glow-button:hover{
+
+    border-color:var(--accent);
+
+    box-shadow:
+
+        0 0 20px rgba(102,227,255,.25);
+
+    transform:translateY(-3px);
+
+}
