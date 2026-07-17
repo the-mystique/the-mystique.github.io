@@ -2,6 +2,16 @@
 
     margin-top:3rem;
 
+    background:transparent;
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
     padding:
 
         clamp(.9rem,2vw,1.1rem)
