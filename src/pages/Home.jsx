@@ -8,9 +8,9 @@ export default function Home(){
 
         <>
 
-            <CursorGlow/>
-
             <GridBackground/>
+
+            <CursorGlow/>
 
             <Hero/>
 
