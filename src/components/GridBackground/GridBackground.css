@@ -1,0 +1,66 @@
+.grid-background{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-2;
+
+    background-color:var(--bg);
+
+    background-image:
+
+        linear-gradient(
+            rgba(255,255,255,.045) 1px,
+            transparent 1px
+        ),
+
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.045) 1px,
+            transparent 1px
+        );
+
+    background-size:50px 50px;
+
+    animation:gridMove 18s linear infinite;
+
+}
+
+.grid-background::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        radial-gradient(
+
+            circle at center,
+
+            rgba(102,227,255,.08),
+
+            transparent 70%
+
+        );
+
+}
+
+@keyframes gridMove{
+
+    from{
+
+        background-position:0 0;
+
+    }
+
+    to{
+
+        background-position:50px 50px;
+
+    }
+
+}
