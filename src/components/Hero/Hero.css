@@ -1,6 +1,6 @@
 .hero{
 
-    min-height:100vh;
+    min-height:100svh;
 
     display:flex;
 
@@ -8,7 +8,7 @@
 
     justify-content:center;
 
-    padding:2rem;
+    padding:clamp(1.5rem,4vw,4rem);
 
     position:relative;
 
@@ -16,11 +16,11 @@
 
 .hero-content{
 
-    max-width:900px;
-
-    width:100%;
+    width:min(100%,900px);
 
     text-align:center;
+
+    margin:auto;
 
 }
 
@@ -28,38 +28,38 @@
 
     color:var(--secondary);
 
-    letter-spacing:.25rem;
-
     text-transform:uppercase;
 
-    margin-bottom:2rem;
+    letter-spacing:.25rem;
 
-    font-size:.85rem;
+    font-size:clamp(.65rem,.9vw,.9rem);
+
+    margin-bottom:2rem;
 
 }
 
 .hero h1{
 
-    font-size:clamp(4rem,12vw,8rem);
+    font-size:clamp(4rem,18vw,8rem);
 
-    line-height:.9;
+    line-height:.88;
 
-    letter-spacing:-.08em;
+    letter-spacing:-0.08em;
 
-    margin-bottom:2rem;
+    margin-bottom:1.5rem;
 
 }
 
 .hero-description{
 
-    font-size:1.25rem;
+    width:min(100%,650px);
 
-    color:var(--secondary);
+    margin-inline:auto;
 
-    max-width:700px;
-
-    margin:auto;
+    font-size:clamp(1rem,2.8vw,1.35rem);
 
     line-height:1.8;
+
+    color:var(--secondary);
 
 }
