@@ -26,15 +26,9 @@ export default function Home(){
 
             <About/>
 
-            <Thinking/>
-
             <Projects/>
 
             <Ideas/>
-
-            <Timeline/>
-
-            <Contact/>
 
         </>
 
