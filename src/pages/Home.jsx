@@ -4,11 +4,11 @@ import Cursor from "../components/ui/Cursor/Cursor";
 
 import Hero from "../components/sections/Hero/Hero";
 import About from "../components/sections/About/About";
-import Thinking from "../components/sections/Thinking/Thinking";
+// import Thinking from "../components/sections/Thinking/Thinking";
 import Projects from "../components/sections/Projects/Projects";
 import Ideas from "../components/sections/Ideas/Ideas";
-import Timeline from "../components/sections/Timeline/Timeline";
-import Contact from "../components/sections/Contact/Contact";
+//import Timeline from "../components/sections/Timeline/Timeline";
+//import Contact from "../components/sections/Contact/Contact";
 
 export default function Home(){
 
