@@ -1,12 +1,26 @@
 import "./Button.css";
 
-export default function GlowButton() {
+export default function Button({
 
-    return (
+    children,
 
-        <button className="glow-button">
+    variant="primary",
 
-            ENTER
+    onClick
+
+}){
+
+    return(
+
+        <button
+
+            className={`button button--${variant}`}
+
+            onClick={onClick}
+
+        >
+
+            {children}
 
         </button>
 

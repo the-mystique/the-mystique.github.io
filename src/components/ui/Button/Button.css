@@ -2,25 +2,25 @@
 
     margin-top:3rem;
 
+    padding:
+
+        1rem
+
+        2.5rem;
+
+    border-radius:999px;
+
+    border:1px solid var(--border);
+
     background:transparent;
 
     color:var(--text);
 
-    border:1px solid var(--border);
-
     cursor:pointer;
 
-    transition:all .3s ease;
+    transition:
 
-    padding:
-
-        clamp(.9rem,2vw,1.1rem)
-
-        clamp(2rem,5vw,3rem);
-
-    border-radius:999px;
-
-    font-size:clamp(.95rem,2vw,1rem);
+        var(--transition);
 
 }
 
@@ -28,10 +28,20 @@
 
     border-color:var(--accent);
 
+    transform:
+
+        translateY(-3px);
+
     box-shadow:
 
-        0 0 20px rgba(102,227,255,.25);
+        0 0 25px
 
-    transform:translateY(-3px);
+        rgba(102,227,255,.2);
+
+}
+
+.button--ghost{
+
+    background:none;
 
 }

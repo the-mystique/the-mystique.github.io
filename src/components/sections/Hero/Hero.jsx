@@ -1,35 +1,53 @@
 import "./Hero.css";
+
+import Container from "../../ui/Container/Container";
 import Button from "../../ui/Button/Button";
 
-export default function Hero() {
-    return (
+export default function Hero(){
+
+    return(
+
         <section className="hero">
 
-            <div className="hero__content">
+            <Container>
 
-                <p className="hero__tag">
-                    Product Engineer • Builder • Systems Thinker
-                </p>
+                <div className="hero__content">
 
-                <h1>
+                    <p className="hero__tag">
 
-                    DOER
-                    <br />
-                    MYST
+                        Engineer • Innovator • Systems Thinker
 
-                </h1>
+                    </p>
 
-                <p className="hero__description">
+                    <h1 className="hero__title">
 
-                    Building products where engineering,
-                    business and imagination meet.
+                        SYED
+                        <br />
+                        ZULQARNAIN
+                        <br />
+                        HAIDER
 
-                </p>
+                    </h1>
 
-                <Button />
+                    <p className="hero__description">
 
-            </div>
+                        Building products where engineering,
+                        business and imagination meet.
+
+                    </p>
+
+                    <Button>
+
+                        BEGIN
+
+                    </Button>
+
+                </div>
+
+            </Container>
 
         </section>
+
     );
+
 }
