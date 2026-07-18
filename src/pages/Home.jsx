@@ -1,15 +1,15 @@
-import GridBackground from "../components/GridBackground/GridBackground";
-import CursorGlow from "../components/CursorGlow/CursorGlow";
-import Noise from "../components/Noise/Noise";
-import Hero from "../components/Hero/Hero";
+import Grid from "../components/ui/Grid/Grid";
+import Cursor from "../components/ui/Cursor/Cursor";
+import Noise from "../components/ui/Noise/Noise";
+import Hero from "../components/sections/Hero/Hero";
 
 export default function Home(){
 
     return(
         <>
-            <GridBackground/>
+            <Grid/>
             <Noise/>
-            <CursorGlow/>
+            <Cursor/>
             <Hero/>
         </>
     );

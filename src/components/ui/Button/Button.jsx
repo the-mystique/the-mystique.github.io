@@ -1,4 +1,4 @@
-import "./GlowButton.css";
+import "./Button.css";
 
 export default function GlowButton() {
 

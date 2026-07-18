@@ -1,4 +1,4 @@
-.grid-background{
+.grid{
 
     position:fixed;
 
@@ -27,7 +27,7 @@
 
 }
 
-.grid-background::before{
+.grid::before{
 
     content:"";
 

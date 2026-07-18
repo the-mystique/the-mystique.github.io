@@ -1,4 +1,4 @@
-.cursor-light{
+.cursor{
 
     position:fixed;
 
@@ -16,9 +16,9 @@
 
             at
 
-            var(--mouse-x)
+            var(--cursor-x)
 
-            var(--mouse-y),
+            var(--cursor-y),
 
             rgba(102,227,255,.10),
 

@@ -1,4 +1,4 @@
-.glow-button{
+.button{
 
     margin-top:3rem;
 
@@ -24,7 +24,7 @@
 
 }
 
-.glow-button:hover{
+.button:hover{
 
     border-color:var(--accent);
 

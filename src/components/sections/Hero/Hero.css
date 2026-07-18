@@ -16,7 +16,7 @@
 
 }
 
-.hero-content{
+.hero__content{
 
     width:min(100%,900px);
 
@@ -34,7 +34,7 @@
 
 }
 
-.hero-tag{
+.hero__tag{
 
     color:var(--secondary);
 
@@ -60,7 +60,7 @@
 
 }
 
-.hero-description{
+.hero__description{
 
     width:min(100%,650px);
 

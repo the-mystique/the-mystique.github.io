@@ -1,19 +1,19 @@
-import "./CursorGlow.css";
+import "./Cursor.css";
 import { useEffect } from "react";
 
-export default function CursorGlow(){
+export default function Cursor(){
 
     useEffect(()=>{
 
         const move=(e)=>{
 
             document.documentElement.style.setProperty(
-                "--mouse-x",
+                "--cursor-x",
                 `${e.clientX}px`
             );
 
             document.documentElement.style.setProperty(
-                "--mouse-y",
+                "--cursor-y",
                 `${e.clientY}px`
             );
 
@@ -25,6 +25,6 @@ export default function CursorGlow(){
 
     },[]);
 
-    return <div className="cursor-light"/>
+    return <div className="cursor"/>
 
 }
